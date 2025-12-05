@@ -1,0 +1,198 @@
+{
+  "Basisinformationen": {
+    "Projektname": "Aejboewbfiw ustausch ineffizienter Heizungspumpen",
+    "Kurzbeschreibung": "Erneuerung alter Heizungspumpen zur Senkung von Energieverbrauch und Kosten.",
+    "Ausgangssituation": "Viele Kliniken nutzen alte Heizungspumpen mit hohem Stromverbrauch, was Kosten und Emissionen erhöht.",
+    "Beispiel": "Beispiel: Austausch alter Heizungspumpen senkt Stromverbrauch deutlich.",
+    "Value Proposition": "Moderne, drehzahlgeregelte Pumpen reduzieren Energieverbrauch, CO₂-Emissionen und Wartungsaufwand. Kliniken profitieren von kurzen Amortisationszeiten und höherer Betriebssicherheit.",
+    "Projektumsetzung & Beteiligte": "Gebäudetechnik, Einkauf, Controlling, Nachhaltigkeitsmanagement und externe Fachfirmen sind beteiligt. Schritte: Bestandsaufnahme, Planung, Beschaffung, Installation, Inbetriebnahme und Monitoring.",
+    "Finanzielle Struktur & Instrumente": "Finanzierung umfasst Pumpen, Installation und ggf. Regelungstechnik. Förderprogramme für Energieeffizienz können genutzt werden.",
+    "KPIs & Berichterstattung": "Kennzahlen: Energieverbrauch alt/neu, CO₂-Einsparung, Amortisationszeit, Wartungsaufwand. Monitoring über Energiemanagementsysteme."
+  },
+  "Aufgabenplan": [
+    {
+      "Aufgabe": "Projektstart",
+      "Unteraufgaben": [
+        {
+          "Titel": "Projektteam festlegen",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 10,
+          "Details": "Rollen für Technik, Einkauf und Nachhaltigkeit festlegen."
+        },
+        {
+          "Titel": "Projektziele definieren",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 8,
+          "Details": "Energie- und Budgetziele für das Projekt festlegen."
+        },
+        {
+          "Titel": "Stakeholder informieren",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 12,
+          "Details": "Relevante interne Bereiche und Partner informieren."
+        }
+      ]
+    },
+    {
+      "Aufgabe": "Bestandsanalyse",
+      "Unteraufgaben": [
+        {
+          "Titel": "Pumpenbestand erfassen",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 20,
+          "Details": "Anzahl, Leistung, Alter und Standorte der Pumpen erfassen."
+        },
+        {
+          "Titel": "Energieverbrauch messen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 14,
+          "Details": "Stromverbrauch und Betriebszeiten der Pumpen aufnehmen."
+        },
+        {
+          "Titel": "Austauschprioritäten ableiten",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 10,
+          "Details": "Prioritäten nach Einsparpotenzial und Risiko bestimmen."
+        }
+      ]
+    },
+    {
+      "Aufgabe": "Planung",
+      "Unteraufgaben": [
+        {
+          "Titel": "Technische Anforderungen definieren",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 14,
+          "Details": "Leistung, Hydraulik und Regelung festlegen."
+        },
+        {
+          "Titel": "Marktrecherche durchführen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 18,
+          "Details": "Pumpenmodelle und Anbieter vergleichen."
+        },
+        {
+          "Titel": "Kostenkalkulation erstellen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 12,
+          "Details": "Investitions- und Betriebskosten kalkulieren."
+        },
+        {
+          "Titel": "Fördermöglichkeiten prüfen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 20,
+          "Details": "Förderprogramme für Energieeffizienz prüfen."
+        }
+      ]
+    },
+    {
+      "Aufgabe": "Beschaffung",
+      "Unteraufgaben": [
+        {
+          "Titel": "Vergabeunterlagen vorbereiten",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 16,
+          "Details": "Leistungsbeschreibung und Kriterien erstellen."
+        },
+        {
+          "Titel": "Ausschreibung durchführen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 25,
+          "Details": "Ausschreibung veröffentlichen und Angebote einholen."
+        },
+        {
+          "Titel": "Angebote bewerten",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 15,
+          "Details": "Angebote nach Preis, Technik und Nachhaltigkeit prüfen."
+        },
+        {
+          "Titel": "Bestellung auslösen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 10,
+          "Details": "Vergabeentscheidung treffen und Bestellung durchführen."
+        }
+      ]
+    },
+    {
+      "Aufgabe": "Installation",
+      "Unteraufgaben": [
+        {
+          "Titel": "Austauschlogistik planen",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 12,
+          "Details": "Zugänge, Zeitfenster und Betriebsunterbrechungen planen."
+        },
+        {
+          "Titel": "Pumpeninstallation durchführen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 30,
+          "Details": "Demontage der alten und Einbau der neuen Pumpen."
+        },
+        {
+          "Titel": "Systemintegration testen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 14,
+          "Details": "Regelung, Hydraulik und Sicherheit testen."
+        }
+      ]
+    },
+    {
+      "Aufgabe": "Inbetriebnahme",
+      "Unteraufgaben": [
+        {
+          "Titel": "Funktionsprüfung durchführen",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 6,
+          "Details": "Betriebssicherheit und Regelverhalten prüfen."
+        },
+        {
+          "Titel": "Personal schulen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 5,
+          "Details": "Technikteam in Bedienung und Wartung schulen."
+        }
+      ]
+    },
+    {
+      "Aufgabe": "Monitoring",
+      "Unteraufgaben": [
+        {
+          "Titel": "Energieverbrauch erfassen",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 30,
+          "Details": "Messwerte über mehrere Wochen erfassen."
+        },
+        {
+          "Titel": "Einsparanalyse durchführen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 12,
+          "Details": "Energie- und CO₂-Einsparung berechnen."
+        },
+        {
+          "Titel": "Bericht erstellen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 10,
+          "Details": "Ergebnisse und KPIs dokumentieren."
+        }
+      ]
+    },
+    {
+      "Aufgabe": "Projektabschluss",
+      "Unteraufgaben": [
+        {
+          "Titel": "Abschlussdokumentation erstellen",
+          "Verknüpfung": "nein",
+          "Dauer_Tage": 12,
+          "Details": "Technische Daten, Kosten und Ergebnisse dokumentieren."
+        },
+        {
+          "Titel": "Lessons Learned erfassen",
+          "Verknüpfung": "verknüpft",
+          "Dauer_Tage": 8,
+          "Details": "Optimierungspotenziale für Folgeprojekte ableiten."
+        }
+      ]
+    }
+  ]
+}
