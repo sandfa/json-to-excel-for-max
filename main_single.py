@@ -57,7 +57,7 @@ def convert_json_to_excel(input_dir, output_file):
                         
                         # Map Main Task Title
                         # Column: A10 Titel
-                        row_data[f"A{task_id_prefix} Titel"] = task.get("Aufgabe", "")
+                        row_data[f"A{task_id_prefix} Titel"] = task.get("Aufgabe", "0")
                         
                         # Map Subtasks
                         subtasks = task.get("Unteraufgaben", [])
@@ -65,10 +65,10 @@ def convert_json_to_excel(input_dir, output_file):
                             # Subtask ID: 11, 12... 21, 22...
                             subtask_id = task_id_prefix + j + 1
                             
-                            row_data[f"A{subtask_id} Titel"] = subtask.get("Titel", "")
-                            row_data[f"A{subtask_id} Linked"] = subtask.get("Verknüpfung", "")
-                            row_data[f"A{subtask_id} Dauer"] = subtask.get("Dauer_Tage", "")
-                            row_data[f"A{subtask_id} Details"] = subtask.get("Details", "")
+                            row_data[f"A{subtask_id} Titel"] = subtask.get("Titel", "0")
+                            row_data[f"A{subtask_id} Linked"] = subtask.get("Verknüpfung", "0")
+                            row_data[f"A{subtask_id} Dauer"] = subtask.get("Dauer_Tage", "0")
+                            row_data[f"A{subtask_id} Details"] = subtask.get("Details", "0")
 
                 all_data.append(row_data)
                 
@@ -80,8 +80,8 @@ def convert_json_to_excel(input_dir, output_file):
         
         # If we have target columns, ensure we match them
         if target_columns:
-            # Reindex to match target columns, adding missing ones as empty
-            df = df.reindex(columns=target_columns)
+            # Reindex to match target columns, adding missing ones as "0"
+            df = df.reindex(columns=target_columns, fill_value="0")
         
         df.to_excel(output_file, index=False)
         print(f"Successfully created {output_file}")
